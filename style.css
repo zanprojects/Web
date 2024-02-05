@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #483012;
+    border-radius: 2px;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    border: 1px solid #483012;
+    border-radius: 3px;
+}
+.left {
+    position: initial;
+    background-color: rgba(31, 116, 127, 0.131);
+    padding: 20px;
+    border: 1px solid #483012;
+    border-radius: 2px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+    border: 1px solid #483012;
+    border-radius: 2px;
+ 
+}
+ .image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Objective, .Education, .RelevantCourses, .project {
+    margin-bottom: 30px;
+    
+}
+.image {
+    border: 2px solid #483012;
+    border-radius: 30%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+}
+.h2 {
+    background-color: rgb(20, 43, 57);
+}
